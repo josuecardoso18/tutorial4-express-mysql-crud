@@ -1,0 +1,14 @@
+{
+  "name": "tutorial4-express-mysql-crud",
+  "version": "1.0.0",
+  "description": "Tutorial 4 Senac - CRUD com Express, Routes, Controllers, Repositories e MySQL",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env src/server.js",
+    "start": "node --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
